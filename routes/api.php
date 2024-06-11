@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-/* actualizacion */
+/* actualizacion base de datos */
 
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
